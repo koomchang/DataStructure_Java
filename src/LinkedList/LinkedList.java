@@ -51,6 +51,7 @@ public class LinkedList {
             tail.next = newNode;
             tail = newNode;
         }
+        length++;
     }
 }
 
